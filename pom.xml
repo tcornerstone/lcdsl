@@ -25,6 +25,9 @@
     <!--
     <tycho-snapshots>https://repo.eclipse.org/content/repositories/tycho-snapshots/</tycho-snapshots>
      -->
+    <qualifier>Alpha</qualifier>
+    <buildDate>yyyyMMddHHmm</buildDate>
+    <tycho.buildqualifier.format>'${qualifier}'-${buildDate}</tycho.buildqualifier.format>
   </properties>
 
   <pluginRepositories>
